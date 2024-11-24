@@ -22,7 +22,7 @@
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1140px !important;
   margin: auto;
 }
 
@@ -128,6 +128,14 @@
 
 .fw-800 {
   font-weight: 800;
+}
+
+.gradient-bg{
+  background: linear-gradient(269.71deg, #1A2936 48.86%, #414851 99.56%);
+}
+
+.gradient-sec-p-color{
+  color: #CCCACA;
 }
 
 .breadcrumb-bg-img {
