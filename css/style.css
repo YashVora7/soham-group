@@ -18,7 +18,11 @@
   padding: 0;
   box-sizing: border-box;
   outline: none;
-  font-family: "Outfit", sans-serif;
+  font-family: "Outfit", sans-serif; 
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
