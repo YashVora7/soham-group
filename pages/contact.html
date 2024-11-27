@@ -83,20 +83,23 @@
 
     <main>
       <div class="breadcrumb">
-        <div class="flex">
-          <div class="w-1/2 py-32 primary-bg-color breadcrumb-left-bg-img">
+        <div class="flex flex-wrap">
+          <!-- Left Section -->
+          <div class="w-full sm:w-1/2 py-16 sm:py-32 primary-bg-color breadcrumb-left-bg-img">
             <div class="container">
               <div class="breadcrumb-title text-center">
-                <h3 class="fw-700 fs-30 white-color">HOME</h3>
+                <h3 class="fw-700 fs-24 sm:fs-30 white-color">HOME</h3>
                 <img src="../images/breadcrumb-sticker.png" class="m-auto" />
-                <h2 class="fw-400 fs-45 white-color">Contact Us</h2>
-                <p class="fw-400 fs-25 white-color pt-2">
+                <h2 class="fw-400 fs-30 sm:fs-45 white-color">Contact</h2>
+                <p class="fw-400 fs-18 sm:fs-25 white-color pt-4">
                   As architects we love to add beauty & aesthetics to your space
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-1/2 py-32 breadcrumb-bg-img relative">
+      
+          <!-- Right Section -->
+          <div class="w-full sm:w-1/2 py-16 sm:py-32 breadcrumb-bg-img relative">
             <div class="overlay"></div>
           </div>
         </div>
@@ -107,12 +110,12 @@
           class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24"
         >
           <div class="mx-auto max-w-lg">
-            <h1 class="fw-700 fs-45 sm:text-3xl">Get in Touch</h1>
+            <h1 class="fw-700 fs-30 text-center lg:text-left sm:text-3xl">Get in Touch</h1>
           </div>
 
           <form action="#" class="mx-auto mb-0 mt-8 max-w-md space-y-4">
-            <div class="flex">
-              <div class="w-1/2">
+            <div class="lg:flex">
+              <div class="w-full lg:w-1/2">
                 <div>
                   <div class="relative">
                     <input
@@ -125,7 +128,7 @@
 
                 
               </div>
-              <div class="w-1/2">
+              <div class="w-full lg:w-1/2">
                 <div>
   
                     <div class="relative">
@@ -139,8 +142,8 @@
               </div>
             </div>
 
-            <div class="flex">
-              <div class="w-1/2">
+            <div class="lg:flex">
+              <div class="w-full lg:w-1/2">
                 <div>
                   <div class="relative">
                     <input
@@ -153,7 +156,7 @@
 
                 
               </div>
-              <div class="w-1/2">
+              <div class="w-full lg:w-1/2">
                 <div>
   
                     <div class="relative">
@@ -189,7 +192,7 @@
               </div>
             </div>
 
-            <div>
+            <div class="text-center lg:text-left">
               <button
                 type="submit"
                 class="inline-block rounded-md primary-bg-color px-10 py-3 fw-600 fs-20 text-white"
@@ -200,7 +203,7 @@
           </form>
         </div>
 
-        <div class="w-1/2">
+        <div class="lg:w-1/2">
           <div class="contact-img">
             <img src="../images/contact-form.png" class="object-cover" />
           </div>
@@ -210,14 +213,12 @@
       <section class="py-16">
         <div class="container border-t-2 border-b-2">
           <div class="flex flex-wrap justify-between text-center">
-            <div class="w-1/3">
-              <div class="h-64 rounded-3xl w-64 white-bg-color">
+            <!-- Location Block -->
+            <div class="w-full sm:w-1/3 px-4 mb-6 sm:mb-0">
+              <div class="h-64 rounded-3xl w-full sm:w-64 white-bg-color">
                 <div class="flex flex-col justify-evenly h-full">
                   <div class="img">
-                    <img
-                      src="../images/location-icon.png"
-                      class="mx-auto"
-                    />
+                    <img src="../images/location-icon.png" class="mx-auto" />
                   </div>
                   <div class="sub-title fw-400 fs-16 third-color">
                     603, Sapphire Business Hub,LP Savani Rd, Jalaram Society,Guru Ram Pavan Bhumi,Adajan, Adajan Gam,Adajan, Surat,Gujarat 395009, India.
@@ -225,30 +226,28 @@
                 </div>
               </div>
             </div>
-            <div class="w-1/3 ">
-              <div class="h-64 rounded-3xl w-64 white-bg-color">
+      
+            <!-- Phone Block -->
+            <div class="w-full sm:w-1/3 px-4 mb-6 sm:mb-0">
+              <div class="h-64 rounded-3xl w-full sm:w-64 white-bg-color">
                 <div class="flex flex-col justify-evenly h-full">
                   <div class="img">
-                    <img
-                      src="../images/phone-icon.png"
-                      class="mx-auto"
-                    />
+                    <img src="../images/phone-icon.png" class="mx-auto" />
                   </div>
                   <div class="sub-title fw-400 fs-16 third-color">
-                    <p class="py-2">+91  9099090915</p> 
+                    <p class="py-2">+91  9099090915</p>
                     <p class="py-2">+91  9099090770</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="w-1/3 ">
-              <div class="h-64 rounded-3xl w-64 white-bg-color">
+      
+            <!-- Email Block -->
+            <div class="w-full sm:w-1/3 px-4 mb-6 sm:mb-0">
+              <div class="h-64 rounded-3xl w-full sm:w-64 white-bg-color">
                 <div class="flex flex-col justify-evenly h-full">
                   <div class="img">
-                    <img
-                      src="../images/email-icon.png"
-                      class="mx-auto"
-                    />
+                    <img src="../images/email-icon.png" class="mx-auto" />
                   </div>
                   <div class="sub-title fw-400 fs-16 third-color">
                     <p class="py-2">Sales.sohamgroup@gmal.com</p>
@@ -260,6 +259,7 @@
           </div>
         </div>
       </section>
+      
     </main>
 
     <footer class="footer-bg p-6">

@@ -83,67 +83,69 @@
 
     <main>
       <div class="breadcrumb">
-        <div class="flex">
-          <div class="w-1/2 py-32 primary-bg-color breadcrumb-left-bg-img">
+        <div class="flex flex-wrap">
+          <!-- Left Section -->
+          <div class="w-full sm:w-1/2 py-16 sm:py-32 primary-bg-color breadcrumb-left-bg-img">
             <div class="container">
               <div class="breadcrumb-title text-center">
-                <h3 class="fw-700 fs-30 white-color">HOME</h3>
+                <h3 class="fw-700 fs-24 sm:fs-30 white-color">HOME</h3>
                 <img src="../images/breadcrumb-sticker.png" class="m-auto" />
-                <h2 class="fw-400 fs-45 white-color">Blog</h2>
-                <p class="fw-400 fs-25 white-color pt-2">
+                <h2 class="fw-400 fs-30 sm:fs-45 white-color">Blog Detail</h2>
+                <p class="fw-400 fs-18 sm:fs-25 white-color pt-4">
                   As architects we love to add beauty & aesthetics to your space
                 </p>
               </div>
             </div>
           </div>
-          <div class="w-1/2 py-32 breadcrumb-bg-img relative">
+      
+          <!-- Right Section -->
+          <div class="w-full sm:w-1/2 py-16 sm:py-32 breadcrumb-bg-img relative">
             <div class="overlay"></div>
           </div>
         </div>
-      </div>
+      </div> 
 
-      <section class="py-44 relative">
+      <section class="py-16 lg:py-44 relative">
         <div class="container">
-          <div class="absolute top-[0] right-[0]">
+          <!-- Background Heading (Top Right) -->
+          <div class="absolute top-0 right-0 hidden lg:block">
             <h1 class="fw-700 text-[130px] primary-color opacity-10">
               SOHAM <span class="secondary-color">G</span>
             </h1>
           </div>
-          <div class="flex justify-between">
-            <div class="w-1/2">
+      
+          <!-- First Row -->
+          <div class="flex flex-wrap justify-between">
+            <!-- Left Image Section -->
+            <div class="w-full lg:w-1/2 mb-8 lg:mb-0 px-4 lg:px-0">
               <div class="about-img relative">
                 <div
-                  class="w-52 h-60 border-2 border-l-0 border-b-0 primary-border-color rounded-lg rounded-tl-none rounded-br-none absolute"
+                  class="w-52 h-60 border-2 border-l-0 border-b-0 primary-border-color rounded-lg rounded-tl-none rounded-br-none absolute hidden lg:block"
                   style="right: -20px; top: -22px"
                 ></div>
                 <div
-                  class="w-52 h-60 border-2 border-r-0 border-t-0 primary-border-color rounded-lg rounded-tl-none rounded-br-none absolute"
+                  class="w-52 h-60 border-2 border-r-0 border-t-0 primary-border-color rounded-lg rounded-tl-none rounded-br-none absolute hidden lg:block"
                   style="left: -22px; bottom: -20px"
                 ></div>
                 <img
                   src="../images/blog-detail1.html.png"
                   alt="About Us"
-                  class=" "
+                  class="w-full "
                 />
               </div>
             </div>
-            <div class="w-1/2 ms-12">
-              <div class=" ">
-                <div class="heading fw-700 fs-45 primary-color py-1">
+      
+            <!-- Right Text Section -->
+            <div class="w-full lg:w-1/2 px-4 lg:px-12">
+              <div>
+                <div class="heading fw-700 text-3xl lg:text-4xl primary-color py-1">
                   <h2>
-                    Ocean Breeze
-                    <span class="secondary-color"> Villa </span>
+                    Ocean Breeze <span class="secondary-color">Villa</span>
                   </h2>
                 </div>
-                <div class="flex items-center">
-                  <p
-                    class="fw-500 fs-16 secondary-color text-base leading-relaxed me-3"
-                  >
-                    Jun 03,2023
-                  </p>
-                  <p
-                    class="fw-500 fs-16 primary-color text-base leading-relaxed"
-                  >
+                <div class="flex items-center text-sm lg:text-base">
+                  <p class="fw-500 text-secondary-color me-3">Jun 03,2023</p>
+                  <p class="fw-500 text-primary-color">
                     Upload By <span class="third-color">Admin</span>
                   </p>
                 </div>
@@ -171,39 +173,20 @@
               </div>
             </div>
           </div>
-
-          <div class="absolute top-[34%] left-[0]">
+      
+          <!-- Background Heading (Bottom Left) -->
+          <div class="absolute top-[34%] left-0 hidden lg:block">
             <h1 class="fw-700 text-[130px] primary-color opacity-10">
               HAM <span class="secondary-color">GROUP</span>
             </h1>
           </div>
-          <div class="flex justify-between my-12">
-            <div class="w-1/2 self-end">
-              <div class=" ">
-                <!-- <div class="heading fw-700 fs-45 primary-color py-1">
-                    <h2>
-                      Ocean Breeze
-                      <span class="secondary-color">
-                          Villa
-                      </span>
-                    </h2>
-                  </div> -->
-                <!-- <div class="flex items-center ">
-                      <p
-                        class="fw-500 fs-16 secondary-color text-base leading-relaxed me-3"
-                      >
-                      Jun 03,2023
-                      </p>
-                      <p
-                        class="fw-500 fs-16 primary-color text-base leading-relaxed"
-                      >
-                       Upload By <span class="third-color">Admin</span>
-                      </p>
-                    </div> -->
-                <div class="description fw-400 fs-16 third-color py-1">
-                  <!-- <p class="py-1">
-                      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    </p> -->
+      
+          <!-- Second Row -->
+          <div class="flex flex-wrap justify-between my-24">
+            <!-- Left Text Section -->
+            <div class="self-end w-full lg:w-2/5 lg:px-0 mb-8 lg:mb-0">
+              <div>
+                <div class="description fw-400 text-sm lg:text-base third-color py-3">
                   <ul class="list-disc ms-8">
                     <li class="py-1">
                       There are many variations of passages of Lorem Ipsum
@@ -224,50 +207,55 @@
                 </div>
               </div>
             </div>
-            <div class="w-1/2 ms-12">
+      
+            <!-- Right Image Section -->
+            <div class="w-full lg:w-3/5 px-4 lg:px-12">
               <div class="about-img relative">
                 <div
-                  class="w-52 h-60 border-2 border-l-0 border-b-0 primary-border-color rounded-lg rounded-tl-none rounded-br-none absolute"
+                  class="w-52 h-60 border-2 border-l-0 border-b-0 primary-border-color rounded-lg rounded-tl-none rounded-br-none absolute hidden lg:block"
                   style="right: -20px; top: -22px"
                 ></div>
                 <img
                   src="../images/blog-detail2.html.png"
                   alt="About Us"
-                  class=" "
+                  class="w-full "
                 />
               </div>
             </div>
-          </div>
 
-          <div class="mt-5 third-color">
-            <ul class="list-disc ms-8">
-              <li>
-                On the other hand, we denounce with righteous indignation and
-                dislike men who are so beguiled and demoralized by the charms of
-                pleasure of the moment, so blinded by desire, that they cannot
-                foresee the pain and trouble that are bound to ensue; and equal
-                blame belongs to those who fail in their duty through weakness
-                of will, which is the same as saying through shrinking from toil
-                and pain. These cases are perfectly simple and easy to
-                distinguish. In a free hour, when our power of choice is
-                untrammelled and when nothing prevents.
-              </li>
-            </ul>
-          </div>
+            <div class="mt-5 third-color">
+              <ul class="list-disc ms-8">
+                <li>
+                  On the other hand, we denounce with righteous indignation and
+                  dislike men who are so beguiled and demoralized by the charms of
+                  pleasure of the moment, so blinded by desire, that they cannot
+                  foresee the pain and trouble that are bound to ensue; and equal
+                  blame belongs to those who fail in their duty through weakness
+                  of will, which is the same as saying through shrinking from toil
+                  and pain. These cases are perfectly simple and easy to
+                  distinguish. In a free hour, when our power of choice is
+                  untrammelled and when nothing prevents.
+                </li>
+              </ul>
+            </div>
 
+          </div>
+      
+          <!-- Footer Section -->
           <div
-            class="mt-5 w-full h-[300px] bg-[#181818] flex justify-center items-center bg-[url('/images/blog-detail-bg.png')]"
+            class="mt-5 w-full h-60 bg-[#181818] flex justify-center items-center bg-[url('/images/blog-detail-bg.png')] bg-cover bg-center"
           >
             <div
-              class="w-[96%] h-[82%] border flex justify-center items-center  bg-black/50"
+              class="w-[96%] h-[82%] border flex justify-center items-center bg-black/50"
             >
-              <h2 class="fw-700 fs-45 white-color">
+              <h2 class="fw-700 text-lg lg:text-4xl text-white">
                 "Let's Find Your Perfect Property"
               </h2>
             </div>
           </div>
         </div>
       </section>
+      
     </main>
 
     <footer class="footer-bg p-6">
