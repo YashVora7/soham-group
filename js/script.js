@@ -1,3 +1,5 @@
+// REVIEW SECTION CAROUSEL 
+
 const slider = document.getElementById("slider");
 const prevBtn = document.getElementById("prevBtn");
 const nextBtn = document.getElementById("nextBtn");
@@ -12,6 +14,7 @@ prevBtn.addEventListener("click", () => {
   slider.scrollBy({ left: -300, behavior: "smooth" });
 });
 
+// PROJECT SECTION CAROUSEL 
 
 const carousel = document.querySelector("#carousel1 .flex");
 const items = document.querySelectorAll(".carousel-item1");
@@ -47,4 +50,4 @@ nextButton.addEventListener("click", () => {
 });
 
 // Initialize
-updateCarousel();
+updateCarousel(); 
