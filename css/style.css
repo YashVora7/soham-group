@@ -145,7 +145,7 @@
   background-position: right;
 }
 
-.breadcrumb-bg-img .overlay {
+.breadcrumb-bg-img .overlay, .overlay {
   position: absolute;
   top: 0;
   left: 0;
