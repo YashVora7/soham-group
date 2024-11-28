@@ -10,6 +10,8 @@
   --black-color: #000000;
   --footer-bg: #F8F8F5;
   --footer-bg-img: url(../images/footer-bg.png);
+  --breadcrumb-bg-img: url(../images/breadcrumb-bg.png);
+  --breadcrumb-left-bg-img: url(../images/breadcrumb-sticker2.png);
   --font-size-large: 1.5rem;
 }
 
@@ -75,10 +77,7 @@ html {
 }
 
 .footer-bg-img {
-  background-image: var(--footer-bg-img);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: right;
+  background-image: var(--footer-bg-img); 
 }
 
 .border-primary-color {
@@ -136,33 +135,14 @@ html {
 
 .gradient-bg{
   background: linear-gradient(269.71deg, #1A2936 48.86%, #414851 99.56%);
-}
-
-.gradient-sec-p-color{
-  color: #CCCACA;
-}
+} 
 
 .breadcrumb-bg-img {
-  background-image: url(../images/breadcrumb-bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-}
-
-.breadcrumb-bg-img .overlay, .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(149, 95, 53, 0.2);
-  z-index: 1;
-}
+  background-image: var(--breadcrumb-bg-img); 
+} 
 
 .breadcrumb-left-bg-img {
-  background-image: url(../images/breadcrumb-sticker2.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  background-image: var(--breadcrumb-left-bg-img); 
 }
 
 .active {
@@ -170,11 +150,6 @@ html {
 }
 
 
-.active::after {
-  content: "";
-  display: block;
-  margin: auto;
-  width: 50%;
-  height: 2px;
+.active::after { 
   background-color: var(--primary-color);
 }

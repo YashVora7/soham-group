@@ -16,11 +16,11 @@
         <div class="flex justify-between items-center">
           <!-- Logo -->
           <div class="logo">
-            <img
+            <a href="/index.html"><img
               src="/images/logo.png"
               alt="Soham Group"
               class="w-16 py-2 md:w-32"
-            />
+            /></a>
           </div>
 
           <!-- Hamburger Icon -->
@@ -52,7 +52,7 @@
                 >
               </li>
               <li class="py-2 px-5 lg:py-0">
-                <a href="blog.html" class="fs-20 fw-500 secondary-color active"
+                <a href="blog.html" class="fs-20 fw-500 secondary-color active after:block after:m-auto after:w-1/2 after:h-[2px]"
                   >Blog</a
                 >
               </li>
@@ -87,7 +87,7 @@
       <div class="breadcrumb">
         <div class="flex flex-wrap">
           <!-- Left Section -->
-          <div class="w-full sm:w-1/2 py-16 sm:py-32 primary-bg-color breadcrumb-left-bg-img">
+          <div class="w-full sm:w-1/2 py-16 sm:py-32 primary-bg-color breadcrumb-left-bg-img bg-no-repeat bg-contain">
             <div class="container">
               <div class="breadcrumb-title text-center">
                 <h3 class="fw-700 fs-24 sm:fs-30 white-color">HOME</h3>
@@ -101,8 +101,8 @@
           </div>
       
           <!-- Right Section -->
-          <div class="w-full sm:w-1/2 py-16 sm:py-32 breadcrumb-bg-img relative">
-            <div class="overlay"></div>
+          <div class="w-full sm:w-1/2 py-16 sm:py-32 breadcrumb-bg-img bg-no-repeat bg-cover bg-right relative">
+            <div class="absolute top-0 left-0 w-full h-full bg-[#955f3533]"></div>
           </div>
         </div>
       </div>
@@ -386,7 +386,7 @@
     </main>
 
     <footer class="footer-bg p-6">
-      <div class="footer-bg-img">
+      <div class="footer-bg-img bg-right bg-contain bg-no-repeat">
         <div class="container mx-auto">
           <!-- Footer Main Section -->
           <div class="flex flex-wrap lg:flex-nowrap">
