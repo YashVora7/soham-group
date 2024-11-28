@@ -169,12 +169,6 @@ html {
   color: var(--primary-color);
 }
 
-/* .active::after{
-    content: '';
-    width: 50%;
-    height: 2px;
-    background-color: var(--primary-color);
-} */
 
 .active::after {
   content: "";
