@@ -15,11 +15,11 @@
     <!-- <link href="https://unpkg.com/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet"> -->
   </head>
   <body>
-    <header class="bg-white">
-      <div class="container mx-auto">
+    <header class="bg-white relative">
+      <div class="container px-4 mx-auto">
         <div class="flex justify-between items-center">
           <!-- Logo -->
-          <div class="logo">
+          <div class="logo self-start">
             <a href="/index.html"><img
               src="/images/logo.png"
               alt="Soham Group"
@@ -29,7 +29,7 @@
 
           <!-- Hamburger Icon -->
           <div class="block lg:hidden">
-            <button id="menu-toggle" class="text-gray-800 text-3xl">☰</button>
+            <button id="menu-toggle" class="text-gray-800 text-3xl absolute right-[5%] top-[0%] my-2">☰</button>
           </div>
 
           <!-- Menu -->
@@ -37,7 +37,7 @@
             id="menu"
             class="hidden lg:flex flex-col lg:flex-row lg:space-x-6 w-full lg:w-auto items-center"
           >
-            <ul class="flex flex-col lg:flex-row text-center">
+            <ul class=" flex flex-col lg:flex-row text-center">
               <li class="py-2 px-5 lg:py-0">
                 <a href="index.html" class="fs-20 fw-500 secondary-color active  after:block after:m-auto after:w-1/2 after:h-[2px]"
                   >Home</a
@@ -78,7 +78,7 @@
           </div>
           <div class="mt-4 lg:mt-0 hidden xl:block">
             <button
-              class="py-1 px-6 border rounded-md primary-color border-primary-color fs-20 fw-600"
+              class="py-1 px-6 border rounded-md primary-color hover:bg-[#955f35] hover:text-white border-primary-color fs-20 fw-600"
             >
               <a href="pages/contact.html">Book Now</a>
             </button>
@@ -118,13 +118,13 @@
               <!-- Buttons -->
               <div class="mt-3 flex flex-wrap gap-4 text-center">
                 <button
-                  class="py-1 px-6 border rounded-md white-color primary-bg-color fs-20 fw-600 wow animate__animated animate__backInLeft"
+                  class="py-1 px-6 border rounded-md white-color primary-bg-color hover:bg-transparent hover:border-[#955f35] hover:text-[#955f35] fs-20 fw-600 wow animate__animated animate__backInLeft"
                 >
                   <a href="pages/contact.html">Book Now</a>
                 </button>
               </div>
 
-              <!-- Buy/Rent Buttons -->
+              <!-- buy/rent buttons -->
               <div class="py-6 mt-10 flex items-center flex-col">
                 <div class="flex justify-start w-full">
                   <button
@@ -138,11 +138,11 @@
                     Rent
                   </button>
                 </div>
-                <!-- Filters -->
+                <!-- filters -->
                 <div
                   class="flex flex-wrap lg:flex-nowrap items-center gap-4 bg-white px-6 py-4 pr-7"
                 >
-                  <!-- Location -->
+                  <!-- location -->
                   <div class="flex-1">
                     <label class="block fw-500 fs-20 secondary-color mb-1 pb-5"
                       >Location</label
@@ -153,7 +153,7 @@
                       <option>Pal, Surat</option>
                     </select>
                   </div>
-                  <!-- Type -->
+                  <!-- type -->
                   <div class="flex-1">
                     <label class="block fw-500 fs-20 secondary-color mb-1 pb-5"
                       >Type</label
@@ -164,7 +164,7 @@
                       <option>Villa</option>
                     </select>
                   </div>
-                  <!-- Price Range -->
+                  <!-- price range -->
                   <div class="flex-1">
                     <label class="block fw-500 fs-20 secondary-color mb-1 pb-5"
                       >Price Range</label
@@ -175,10 +175,10 @@
                       <option>$500 - $1000</option>
                     </select>
                   </div>
-                  <!-- Login Button -->
+                  <!-- login button -->
                   <div>
                     <button
-                      class="px-10 py-2 primary-bg-color text-white fw-600 fs-20"
+                      class="py-2 px-10 border white-color primary-bg-color hover:bg-transparent hover:border-[#955f35] hover:text-[#955f35] fs-20 fw-600"
                     >
                       Login
                     </button>
@@ -257,7 +257,7 @@
                 </div>
                 <div class="mt-3 flex flex-wrap gap-4 text-center py-1">
                   <button
-                    class="py-1 px-6 border rounded-md white-color primary-bg-color fs-20 fw-600"
+                    class="py-1 px-6 border rounded-md white-color primary-bg-color hover:bg-transparent hover:border-[#955f35] hover:text-[#955f35] fs-20 fw-600"
                   >
                     <a href="pages/about.html">Read More</a>
                   </button>
@@ -295,7 +295,7 @@
             <!-- Card 1 -->
             <div class="w-full lg:w-1/4">
               <div
-                class="h-64 rounded-3xl w-full white-bg-color mx-auto lg:w-64"
+                class="h-72 rounded-3xl w-full white-bg-color mx-auto lg:w-80"
               >
                 <div class="flex flex-col justify-evenly h-full">
                   <div class="img">
@@ -317,7 +317,7 @@
             <!-- Card 2 -->
             <div class="w-full lg:w-1/4">
               <div
-                class="h-64 rounded-3xl w-full white-bg-color mx-auto lg:w-64"
+                class="h-72 rounded-3xl w-full white-bg-color mx-auto lg:w-80"
               >
                 <div class="flex flex-col justify-evenly h-full">
                   <div class="img">
@@ -339,7 +339,7 @@
             <!-- Card 3 -->
             <div class="w-full lg:w-1/4">
               <div
-                class="h-64 rounded-3xl w-full white-bg-color mx-auto lg:w-64"
+                class="h-72 rounded-3xl w-full white-bg-color mx-auto lg:w-80"
               >
                 <div class="flex flex-col justify-evenly h-full">
                   <div class="img">
@@ -361,7 +361,7 @@
             <!-- Card 4 -->
             <div class="w-full lg:w-1/4">
               <div
-                class="h-64 rounded-3xl w-full white-bg-color mx-auto lg:w-64"
+                class="h-72 rounded-3xl w-full white-bg-color mx-auto lg:w-80"
               >
                 <div class="flex flex-col justify-evenly h-full">
                   <div class="img">
@@ -503,7 +503,7 @@
 
         <div class="mt-10 flex flex-wrap gap-4 py-4">
           <button
-            class="py-1 px-6 border rounded-md white-color primary-bg-color fs-20 fw-600 mx-auto"
+            class="py-1 px-6 border rounded-md white-color primary-bg-color hover:bg-transparent hover:border-[#955f35] hover:text-[#955f35] fs-20 fw-600 mx-auto"
           >
             <a href="pages/projects.html">View More</a>
           </button>
@@ -756,7 +756,7 @@
           <!-- Read More Button -->
           <div class="mt-6 flex justify-center">
             <button
-              class="py-2 px-6 border rounded-md white-color primary-bg-color fs-20 fw-600"
+              class="py-1 px-6 border rounded-md white-color primary-bg-color hover:bg-transparent hover:border-[#955f35] hover:text-[#955f35] fs-20 fw-600"
             >
               <a href="pages/blog.html">Read More</a>
             </button>
@@ -766,7 +766,7 @@
 
       <!-- GALLERY SECTION  -->
       <section class="py-32 text-center">
-        <div class="container">
+        <div class="container px-4">
           <div class="title fw-500 fs-25 primary-color py-4">
             <p>Gallery</p>
             <img src="images/title-line.png" class="mx-auto" />
@@ -807,7 +807,7 @@
 
           <div class="mt-3 flex flex-wrap gap-4 py-4">
             <button
-              class="py-1 px-6 border rounded-md white-color primary-bg-color fs-20 fw-600 mx-auto"
+              class="py-1 px-6 border rounded-md white-color primary-bg-color hover:bg-transparent hover:border-[#955f35] hover:text-[#955f35] fs-20 fw-600 mx-auto"
             >
               <a href="pages/gallery.html">View More</a>
             </button>
@@ -1145,7 +1145,7 @@
 
       <!-- CTA SECTION  -->
       <section class="py-16 sm:py-32 text-center">
-        <div class="container">
+        <div class="container px-4">
           <div class="heading fw-700 fs-45 primary-color py-1">
             <h2>
               Subscribe to Our
@@ -1329,7 +1329,7 @@
   <script>
     $(document).ready(function () {
       $("#menu-toggle").click(function () {
-        $("#menu").toggleClass("hidden");
+        $("#menu").toggleClass("hidden"); 
       });
     });
   </script>

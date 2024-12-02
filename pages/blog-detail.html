@@ -11,11 +11,11 @@
     <!-- <link href="https://unpkg.com/tailwindcss@3.3.3/dist/tailwind.min.css" rel="stylesheet"> -->
   </head>
   <body>
-    <header class="bg-white">
-      <div class="container mx-auto">
+    <header class="bg-white relative">
+      <div class="container px-4 mx-auto">
         <div class="flex justify-between items-center">
           <!-- Logo -->
-          <div class="logo">
+          <div class="logo self-start">
             <a href="/index.html"><img
               src="/images/logo.png"
               alt="Soham Group"
@@ -25,7 +25,7 @@
 
           <!-- Hamburger Icon -->
           <div class="block lg:hidden">
-            <button id="menu-toggle" class="text-gray-800 text-3xl">☰</button>
+            <button id="menu-toggle" class="text-gray-800 text-3xl absolute right-[5%] top-[0%] my-2">☰</button>
           </div>
 
           <!-- Menu -->
@@ -74,7 +74,7 @@
           </div>
           <div class="mt-4 lg:mt-0 hidden xl:block">
             <button
-              class="py-1 px-6 border rounded-md primary-color border-primary-color fs-20 fw-600"
+              class="py-1 px-6 border rounded-md primary-color hover:bg-[#955f35] hover:text-white border-primary-color fs-20 fw-600"
             >
               <a href="contact.html">Book Now</a>
             </button>
@@ -177,7 +177,7 @@
           </div>
       
           <!-- Background Heading (Bottom Left) -->
-          <div class="absolute top-[34%] left-0 hidden lg:block">
+          <div class="absolute top-[40%] left-0 hidden lg:block">
             <h1 class="fw-700 text-[130px] primary-color opacity-10">
               HAM <span class="secondary-color">GROUP</span>
             </h1>
